@@ -1,0 +1,669 @@
+
+
+
+
+
+/*
+
+-------------------------------------------------- Breakpoint -1 ------------------------------------------------
+-------------------------------------------------- [1024, 1200] ------------------------------------------------
+
+
+ Big Tablets to 1200px which is SMALLER THAN our 1140px ROW.
+
+[1024, 1200]
+*/
+@media only screen and (max-width: 1200px){
+    
+/*--------------------------------------------------------*/
+/*              Header Section                            */
+/*--------------------------------------------------------*/
+    
+    .logo {
+    margin: 60px 0px 0px 1%;
+    }
+    
+    
+    
+    .main-nav-bar {
+    margin: 15px 0px 0px 0px;
+    }
+    
+    
+    .row {
+        padding: 0px 9px;
+    }
+    
+/*    Hero Box
+    Change only the things you NEED to change. 
+    */
+    .hero-text-box {
+    width: 100%;  
+/*    Create some space between sides of broswer*/
+    padding: 2%;
+    }
+    
+ /*--------------------------------------------------------*/
+/*              ABOUT ME Section                            */
+/*--------------------------------------------------------*/
+    .about-me-image {
+    width: 35%;
+    margin-top: 10%;
+    }
+    
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Education Section                            */
+/*--------------------------------------------------------*/
+    
+    .subject-box img{
+    height: 4%;    
+/*    This was essential to CENTER it! */
+    padding: 0% 40%;
+    }
+    
+    
+    /*Header (h4) */
+    .subject-box h4{
+    font-size: 138%;
+    margin: 5px 10px 30px 10px;
+    
+    letter-spacing: 3px;
+    }
+    
+    
+    .subject-box {
+    padding: 0% 1%;
+    }
+    
+    
+    /*fix subjects list*/
+    .subject-description li{
+    padding: 10px 0px 8px 0px;
+    }
+
+    
+    
+    
+
+    
+    
+/*--------------------------------------------------------*/
+/*              Tech-XP Section                            */
+/*--------------------------------------------------------*/
+    
+    .tech-knowledge-bar {
+    margin: 25px 0px;
+    }
+    
+    .tech-knowledge-bar ul {
+    margin: 25px 0px;
+    }
+    
+    
+    .tech-label {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 98%;
+    }
+    
+    
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Projects Section                            */
+/*--------------------------------------------------------*/    
+    .project-box {
+/*    To space out of section */
+    width: 33.3%;
+/*    To avoid boxes being clipped off due to extra content*/
+    height: 100%;
+    
+/*    To make them side by side in a row*/
+    padding: 25px 0px 25px 0px;
+    }
+    
+    
+    .project-description-paragraph p{
+/*    Spacing out the sides of the text*/
+    padding: 1% 20px;
+    font-size: 90%;
+    }
+    
+    .see-project-link a{
+/*    To centralize it */
+    margin: 1% 25% 5px 25%;
+    }
+    
+    .proj-btn:link,
+    .proj-btn:visited {
+/*    To fix size!!!*/ 
+    padding: 5% 5px;
+    }
+    
+    /*Project IMAGE */
+    .project-image {
+    padding: 8%  1%;
+    width: 100%;
+    height: 290px;
+    }
+    
+    
+    
+    /*Project NAME*/
+.project-img-and-title h4{
+    font-weight: 300;
+    font-size: 130%;
+    margin: 5% 5% 1% 5%;
+/*    BE careful!*/
+    letter-spacing: 3px;
+    
+}
+    
+    
+    /*Project NAME*/
+.project-img-and-title h5{
+    font-weight: 300;
+    font-size: 120%;
+    margin: 8% 5% 1% 5%;
+}
+    
+ 
+    
+    
+/*--------------------------------------------------------*/
+/*              Work-XP Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    .company-and-position ul li{
+    font-size: 115%;    
+    padding: 20px 0px;
+    }
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Footer Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    
+}
+
+
+
+
+
+
+/*
+-------------------------------------------------- Breakpoint - 2 ------------------------------------------------
+-------------------------------------------------- [768, 1023px] ------------------------------------------------
+*/
+
+
+/*
+Targets iPAD and Portrait Mode
+IPad on landscape mode has 1024px
+
+--SMALL TABLETS => BIG Tablets
+[768, 1023px]
+*/
+@media only screen and (max-width: 1023px){
+    
+/*    Reduce GLOBAL FONT-SIZE*/
+    html {font-size: 17px;}
+    
+    
+    /* Section Intro Descriptions*/
+    .section-description {
+    width: 80%;
+/*    Add some 8% margin after the description paragraph*/
+    margin: 0% 10% 6% 10%; 
+    line-height: 46px;
+    }
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Header Section                            */
+/*--------------------------------------------------------*/
+    
+        
+
+    
+    .main-nav-bar {
+    margin: 35px 0px 0px 0px;
+    }
+    
+    
+    
+    /*Manipulate the List Elements */
+    .main-nav-bar li {
+        padding: 10px 40px 0px 0px;
+    }
+    
+    
+    
+    
+    
+    
+ /*--------------------------------------------------------*/
+/*              ABOUT ME Section                            */
+/*--------------------------------------------------------*/
+   
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Education Section                            */
+/*--------------------------------------------------------*/
+    
+
+    
+    /*fix subjects list*/
+    .subject-description li{
+    padding: 10px 0px 8px 0px;
+    }
+    
+    
+
+    
+    
+/*--------------------------------------------------------*/
+/*              Tech-XP Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    .tech-knowledge-bar {
+    margin: 15px 0px;
+    }
+    
+    .tech-knowledge-bar ul {
+    margin: 15px 0px;
+    }
+    
+    /*Manipulate the List Elements */
+    .tech-knowledge-bar ul li {
+/*        To give some space above */
+        padding: 14px 28px 0px 0px;    
+    }
+
+    
+    
+/*--------------------------------------------------------*/
+/*              Projects Section                            */
+/*--------------------------------------------------------*/    
+    
+    /*Project IMAGE */
+    .project-image {
+    padding: 8%  1%;
+    width: 100%;
+    height: 240px;
+    }
+    
+/*--------------------------------------------------------*/
+/*              Work-XP Section                            */
+/*--------------------------------------------------------*/
+    
+     .company-and-position ul li{
+    font-size: 105%;    
+    padding: 20px 0px;
+    }
+    
+     .company-and-position ul {
+    padding: 20px 20px;
+    }
+    
+    
+/*--------------------------------------------------------*/
+/*              Footer Section                            */
+/*--------------------------------------------------------*/
+    
+    .footer-nav-bar {
+    margin: 20px 5px;
+}
+
+
+
+    .footer-social-media-links {
+        margin: 20px 5px;
+    }
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+-------------------------------------------------- Breakpoint -3 ------------------------------------------------
+-------------------------------------------------- [481, 767px] ------------------------------------------------
+
+MOST MOBILE PHONES
+
+
+ SO GO down to 485 ish and start FIXING!
+*/
+
+
+
+
+
+
+
+/*
+Targets all SMALL phones and SMALL TABLETS which are smaller than the iPad(768px)
+ [481, 767px]
+*/
+@media only screen and (max-width: 767px){
+    
+    
+    /*    Reduce GLOBAL FONT-SIZE*/
+    html{font-size: 15px;}
+    
+/*    Crucial: TO STACK ON TOP */
+    .col {
+        width: 100%;
+    }
+    
+    
+    /* Section Headers*/
+    h3 {
+        margin: 30px 0px 60px 5%;
+    }
+    
+    
+    
+    
+    
+    
+   /* Section Intro Descriptions*/
+    .section-description {
+    width: 98%;
+/*    Add some 8% margin after the description paragraph*/
+    margin: 0% 1% 15% 1%; 
+    line-height: 46px;
+    }
+    
+        
+/*--------------------------------------------------------*/
+/*              Header Section                            */
+/*--------------------------------------------------------*/
+    
+    /*Hide the nav-bar since we'll build one for mobile phones with jQuery! */
+    .main-nav-bar li {
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+ /*--------------------------------------------------------*/
+/*              ABOUT ME Section                            */
+/*--------------------------------------------------------*/
+   
+    .section-details-text {
+    width: 90%;
+    font-size: 110%;
+    margin: 10px 0px 0px 20px;
+    }
+    
+    .about-me-image {
+    width: 85%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 6%;
+    }
+    
+/*--------------------------------------------------------*/
+/*              Education Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    .subject-box img{
+    height: 90%;    
+    }
+
+     .subject-box {
+    padding: 8% 5%;
+    font-size: 138%;
+
+    }
+    
+   .subject-box ul {
+    padding-left: 15%;
+    }
+    
+    
+    /*fix subjects list*/
+    .subject-description li{
+    padding: 10px 0px 10px 0px;
+    }
+    
+    
+    .subject-box h4{
+    font-size: 180%;
+    margin: 5px 10px 20px 10px;
+    
+    }
+
+    
+    
+
+    
+    
+/*--------------------------------------------------------*/
+/*              Tech-XP Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Projects Section                            */
+/*--------------------------------------------------------*/    
+    
+    
+    .project-box {
+        width: 100%;
+    }
+    
+    .section-projects p{
+    font-size: 130%;
+    line-height: 45px;
+    }
+
+    
+    
+    .project-img-and-title h4{
+    font-size: 190%;
+    letter-spacing: 3px;
+    }  
+    
+    
+    .project-img-and-title h5{
+    font-size: 180%;
+    }
+    
+    /*Project IMAGE */
+    .project-image {
+    height: 350px;
+    }
+    
+    
+    .proj-btn:link,
+    .proj-btn:visited {
+/*    To fix size!!!*/ 
+    padding: 5% 8%;
+    margin-left: 30%;
+    }
+    
+/*--------------------------------------------------------*/
+/*              Work-XP Section                            */
+/*--------------------------------------------------------*/
+    
+     .section-work-experience ul{
+    width: 90%;
+    }
+    
+    
+    .description-list-box ul{
+    width: 80%;
+    margin: 14px 10% 80px 0px;
+    font-size: 120%;
+    margin-bottom: 150px;
+    }
+    
+    
+    
+    .company-and-position ul{
+    font-size: 125%;
+    width: 90%;
+    }
+    
+    .company-and-position ul li{
+    font-size: 125%;
+    padding: 10px 60px;
+    margin: 8xp 3px;
+    }
+    
+    .description-list-box ul li{
+    font-size: 95%;
+    }
+    
+/*--------------------------------------------------------*/
+/*              Footer Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------------- Breakpoint - 4 ------------------------------------------------
+-------------------------------------------------- [0,480px] ------------------------------------------------
+*/
+/*
+These CSS rules will only apply when the width of the browser is <=480 px like  iPhones etc.
+
+Small phones: [0,480px]
+*/
+@media only screen and (max-width: 480px){
+    
+    
+    
+    
+    
+        
+/*--------------------------------------------------------*/
+/*              Header Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    
+    
+    
+    
+ /*--------------------------------------------------------*/
+/*              ABOUT ME Section                            */
+/*--------------------------------------------------------*/
+   
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Education Section                            */
+/*--------------------------------------------------------*/
+    
+
+    
+    
+    
+
+    
+    
+/*--------------------------------------------------------*/
+/*              Tech-XP Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Projects Section                            */
+/*--------------------------------------------------------*/    
+    
+    
+    
+/*--------------------------------------------------------*/
+/*              Work-XP Section                            */
+/*--------------------------------------------------------*/
+    
+ 
+    
+    
+/*--------------------------------------------------------*/
+/*              Footer Section                            */
+/*--------------------------------------------------------*/
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
