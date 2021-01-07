@@ -558,17 +558,12 @@ header {
 
 /*Project IMAGE */
 .project-image {
-  padding: 8% 2%;
+  /* padding: 8% 2%; */
   width: 70%;
-  height: 500px;
-  margin-left: 15%;
-}
-
-.project-image-portfolio {
-  padding: 8% 2%;
-  width: 80%;
   height: 400px;
-  margin-left: 10%;
+  margin-left: 15%;
+  border-radius: 500px;
+  border: 2px solid #000000;
 }
 
 /*--------------------------- COMPONENT 2-------------*/
